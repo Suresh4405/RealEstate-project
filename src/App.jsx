@@ -22,9 +22,8 @@ import Aboutcomp from './About/Aboutcomp';
 
 function App() {
   
-
   return (
-    <>
+    <div>
     
     <div className="doc-1">
             <img src={mail} className="mail-img"></img>
@@ -51,6 +50,8 @@ function App() {
         </div>
  
       <Routes>
+      <Route index element={<RealEstate />} />
+
         <Route path="/home" element={<RealEstate/>}/>
         <Route path="/About" element={<Aboutcomp/>}/>
         <Route path="/Properties" element={<Aboutcomp/>}/>
@@ -61,7 +62,7 @@ function App() {
      
    
     
-    </>
+    </div>
 
   )
 }

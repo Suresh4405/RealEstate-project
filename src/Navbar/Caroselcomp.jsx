@@ -9,7 +9,7 @@ function Caroselcomp() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img src={Homee} className="Homee-img"  text="First slide" />
+        <img src={Homee} className="Homee-img" alt='Dream home' text="First slide" />
         <Carousel.Caption>
           <h3>if you can dream, we can create it</h3>
           <p>
@@ -18,14 +18,14 @@ function Caroselcomp() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={plan} className="Homee-img" text="Second slide" />
+        <img src={plan} className="Homee-img" alt='Engineers' text="Second slide" />
         <Carousel.Caption>
           <h3>Plan as your wish</h3>
           <p>Conselt With our best Engineers</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={hh2} className="Homee-img"  text="First slide" />
+        <img src={hh2} className="Homee-img" alt='Buy now' text="First slide" />
         <Carousel.Caption>
           <h3>High quality in low budget </h3>
           
