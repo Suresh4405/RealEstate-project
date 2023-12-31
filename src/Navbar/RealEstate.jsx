@@ -83,6 +83,7 @@ function RealEstate(){
         <div>
             <Blog/>
         </div>
+        
         <div>
             <Contact/>
         </div>

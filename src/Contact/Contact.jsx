@@ -6,9 +6,8 @@ import twitter from "../assets/Twitter1.png"
 import facebook from "../assets/facebook.png"
 const Contact = () => {
     return (
-        <div>
-        <div className='contactpg'>
-            
+        <div className="End-rest">
+        <div className="Onepiece">
             <h1 className='words'>Everything is about to change</h1>
             <input placeholder='Email Address' className='input'></input>
             <button className='button'>Subscribe</button>
